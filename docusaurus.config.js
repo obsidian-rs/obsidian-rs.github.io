@@ -30,6 +30,10 @@ module.exports = {
           title: 'Docs',
           items: [
             {
+              label: 'Quick Start',
+              to: 'docs/quick-start',
+            },
+            {
               label: 'Style Guide',
               to: 'docs/doc1',
             },
