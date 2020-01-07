@@ -12,7 +12,7 @@ const features = [
     imageUrl: 'img/undraw_High_five.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
+        Obsidian was designed from the ground up to be easily used
         used to get your website up and running quickly.
       </>
     ),
@@ -22,8 +22,7 @@ const features = [
     imageUrl: 'img/undraw_to_do_list.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Obsidian lets you focus on your system logic, and we&apos;ll do the chores.
       </>
     ),
   },
@@ -32,45 +31,12 @@ const features = [
     imageUrl: 'img/undraw_developer_activity.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        It is memory safety by default thanks to Rust. It is fast also!
       </>
     ),
   },
 ];
 
-// const features = [
-//   {
-//     title: <>Easy to Use</>,
-//     imageUrl: 'img/undraw_docusaurus_mountain.svg',
-//     description: (
-//       <>
-//         Docusaurus was designed from the ground up to be easily installed and
-//         used to get your website up and running quickly.
-//       </>
-//     ),
-//   },
-//   {
-//     title: <>Focus on What Matters</>,
-//     imageUrl: 'img/undraw_docusaurus_tree.svg',
-//     description: (
-//       <>
-//         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-//         ahead and move your docs into the <code>docs</code> directory.
-//       </>
-//     ),
-//   },
-//   {
-//     title: <>Powered by React</>,
-//     imageUrl: 'img/undraw_docusaurus_react.svg',
-//     description: (
-//       <>
-//         Extend or customize your website layout by reusing React. Docusaurus can
-//         be extended while reusing the same header and footer.
-//       </>
-//     ),
-//   },
-// ];
 
 function Feature({imageUrl, title, description}) {
   const imgUrl = useBaseUrl(imageUrl);
@@ -92,8 +58,8 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title} Web Framework`}
+      description="Ergonomic way of building web.">
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
