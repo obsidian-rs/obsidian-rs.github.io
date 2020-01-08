@@ -18,7 +18,7 @@ Go to `Cargo.toml` file, add this line:
 [package]
 name = "my-app"
 version = "0.1.0"
-authors = ["Gan Jun Kai <kuhn96@gmail.com>"]
+authors = ["XXX <xxx@email.com>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
