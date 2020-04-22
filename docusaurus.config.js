@@ -7,6 +7,7 @@ module.exports = {
   organizationName: 'obsidian-rs', // Usually your GitHub org/user name.
   projectName: 'obsidian-rs.github.io', // Usually your repo name.
   themeConfig: {
+    disableDarkMode: true,
     navbar: {
       title: 'Obsidian',
       // logo: {
