@@ -1,9 +1,12 @@
 import React from 'react';
 import classnames from 'classnames';
 import Layout from '@theme/Layout';
+import useTheme from '@theme/hooks/useTheme';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+
+import '../css/custom.css';
 import styles from './styles.module.css';
 
 const features = [
@@ -55,14 +58,18 @@ function Feature({imageUrl, title, description}) {
 
 function Home() {
   const context = useDocusaurusContext();
+  const theme = useTheme();
+  console.log('theme: ', theme);
   const {siteConfig = {}} = context;
+
   return (
     <Layout
       title={`${siteConfig.title} Web Framework`}
       description="Ergonomic way of building web.">
-      <header className={classnames('hero hero--primary', styles.heroBanner)}>
+      <header className={classnames(styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
+          <img className="logo" src={useBaseUrl('img/obsidian.svg')} />
+          <h1 className={classnames("hero__title title")}>{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link
