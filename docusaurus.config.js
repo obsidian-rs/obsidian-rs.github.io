@@ -8,6 +8,9 @@ module.exports = {
   projectName: 'obsidian-rs.github.io', // Usually your repo name.
   themeConfig: {
     disableDarkMode: true,
+    prism: {
+      additionalLanguages: ['rust', 'toml']
+    },
     navbar: {
       title: 'Obsidian',
       // logo: {

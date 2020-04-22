@@ -7,11 +7,11 @@ sidebar_label: Quick Start
 ## Quick install guide
 if you haven't installed [Rust](https://www.rust-lang.org/) yet, here is a quick guide which using rustup:
 ```bash
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+$ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 After Rust is installed, you can use cargo to generate a new project:
 ```bash
-cargo new my-app
+$ cargo new my-app
 ```
 Go to `Cargo.toml` file, add this line:
 ```toml {10}
@@ -44,5 +44,5 @@ fn main() {
 
 Go to terminal type this to start your server:
 ```bash
-cargo run
+$ cargo run
 ```
