@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Obsidian',
-  tagline: 'Ergonomic way of building web.',
+  tagline: 'Ergonomic async http framework for amazing, reliable and efficient web',
   url: 'https://obsidian-rs.github.io',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
@@ -52,7 +52,7 @@ module.exports = {
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              href: 'https://stackoverflow.com/questions/tagged/obsidian',
             },
             {
               label: 'Discord',
@@ -69,7 +69,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/obsidian-rs/obsidian',
             },
             {
               label: 'Twitter',
@@ -78,7 +78,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Obsidian. Built with Docusaurus.`,
     },
   },
   presets: [
