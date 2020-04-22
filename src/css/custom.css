@@ -23,3 +23,12 @@
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
+
+.logo {
+  width: 600px;
+}
+
+.title {
+  margin-top: 40px;
+  font-size: 48px;
+}
