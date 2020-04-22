@@ -16,7 +16,7 @@ const features = [
     description: (
       <>
         Obsidian was designed from the ground up to be easily used
-        used to get your website up and running quickly.
+        to get your website up and running quickly.
       </>
     ),
   },
@@ -59,7 +59,6 @@ function Feature({imageUrl, title, description}) {
 function Home() {
   const context = useDocusaurusContext();
   const theme = useTheme();
-  console.log('theme: ', theme);
   const {siteConfig = {}} = context;
 
   return (
