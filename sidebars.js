@@ -8,7 +8,7 @@
 module.exports = {
   someSidebar: {
     Introduction: ['quick-start'],
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
+    // Docusaurus: ['doc1', 'doc2', 'doc3'],
+    // Features: ['mdx'],
   },
 };

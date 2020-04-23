@@ -37,14 +37,14 @@ module.exports = {
               label: 'Quick Start',
               to: 'docs/quick-start',
             },
-            {
-              label: 'Style Guide',
-              to: 'docs/doc1',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2',
-            },
+            // {
+            //   label: 'Style Guide',
+            //   to: 'docs/doc1',
+            // },
+            // {
+            //   label: 'Second Doc',
+            //   to: 'docs/doc2',
+            // },
           ],
         },
         {
