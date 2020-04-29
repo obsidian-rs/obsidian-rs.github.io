@@ -24,8 +24,8 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-obsidian = "0.2.0"
-tokio = "0.2.16"
+obsidian = "0.2.1"
+tokio = "0.2.20"
 ```
 Go to `main.rs`, add these:
 ```rust
